@@ -3,6 +3,8 @@ Reference API to demonstrate JWT functionality.
 
 Implements the JWT spec as lightly as possible to show the way it works.
 
+> Note: This is a self-made implementation of the spec. Save yourself some trouble and use one of [the many existing libraries that take all this hassle out of your hands](https://jwt.io).
+
 ## Installation
 This demo uses two dependencies: `express` to get a simple API up and running and `body-parser` to extract the JSON values of post requests.
 To install these dependencies, run `npm install`.
