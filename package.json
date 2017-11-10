@@ -1,0 +1,28 @@
+{
+  "name": "jwt-auth-flow",
+  "version": "1.0.0",
+  "description": "Example application to demonstrate functionality and usage of JSON Webtokens",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/",
+    "dev": "nodemon app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rijkvanzanten/jwt-auth-flow.git"
+  },
+  "keywords": [],
+  "author": "Rijk van Zanten <rijkvanzanten@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rijkvanzanten/jwt-auth-flow/issues"
+  },
+  "homepage": "https://github.com/rijkvanzanten/jwt-auth-flow#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
